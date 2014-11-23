@@ -4,8 +4,10 @@ rubygraph
 Connect all the requires together in a big mush:
 
 ```
-./bin/rubygraph.rb ~/dev/guard-rspec/ | dot -Tsvg > /tmp/foo.svg  ; open /tmp/foo.svg 
+./bin/rubygraph.rb SRC_FOLDER| dot -Tsvg > /tmp/foo.svg  ; open /tmp/foo.svg 
 ```
+
+It is highly hacky... but useful.
 
 License
 ========
