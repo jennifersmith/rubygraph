@@ -1,6 +1,14 @@
 rubygraph
 =========
 
+Connect all the requires together in a big mush:
+
+```
+./bin/rubygraph.rb ~/dev/guard-rspec/ | dot -Tsvg > /tmp/foo.svg  ; open /tmp/foo.svg 
+```
+
+License
+========
 
 rubygraph - Copyright (C) 2014 Jennifer Smith
 
